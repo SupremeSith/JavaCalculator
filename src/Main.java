@@ -5,12 +5,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o primeiro numero: ");
-        int numero1 = scanner.nextInt();
+        float numero1 = scanner.nextFloat();
 
         System.out.print("Digite o segundo numero: ");
-        int numero2 = scanner.nextInt();
+        float numero2 = scanner.nextFloat();
 
-        int resultado = numero1 + numero2;
+        float resultado = numero1 + numero2;
         System.out.println("Resultado: " + resultado);
     }
 }
