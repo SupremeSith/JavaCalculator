@@ -2,9 +2,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // numero 1
         Scanner numero1Scanner = new Scanner(System.in);
-        System.out.println("Digite o primeiro numero:");
+        System.out.print("Digite o primeiro numero:");
         int numero1 = numero1Scanner.nextInt();
-        System.out.println(numero1);
+
+        //numero 2
+        Scanner numero2Scanner = new Scanner(System.in);
+        System.out.print("Digite o segundo numero:");
+        int numero2 = numero1Scanner.nextInt();
+        int resultado = numero1 + numero2;
+        System.out.println(resultado);
+
     }
 }
